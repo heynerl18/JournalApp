@@ -22,8 +22,12 @@ export const NoteView = () => {
 
   const dateString = useMemo(() => {
     const newDate = new Date(date);
-    return newDate.toUTCString();
+    const formatter = new Intl.DateTimeFormat('es-ES', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+    return formatter.format(newDate);
   }, [date]);
+
+  console.log('Fecha:\n', dateString);
+  
 
   const fileInputRef = useRef();
 

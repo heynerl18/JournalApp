@@ -11,7 +11,6 @@ export const ImageGallery = ({ images }) => {
             src={`${image}?w=164&h=164&fit=crop&auto=format`}
             srcSet={`${image}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
             alt='Imagen de la nota'
-            style={{ border: '2px solid #ccc', borderRadius: '5px', }}
             loading="lazy"
           />
         </ImageListItem>
