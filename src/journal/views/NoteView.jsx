@@ -26,9 +26,6 @@ export const NoteView = () => {
     return formatter.format(newDate);
   }, [date]);
 
-  console.log('Fecha:\n', dateString);
-  
-
   const fileInputRef = useRef();
 
   useEffect(() => {
