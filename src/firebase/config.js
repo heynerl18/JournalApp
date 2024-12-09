@@ -9,7 +9,7 @@ import { getFirestore } from 'firebase/firestore/lite';
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyDCiwBWuS1JBZzrsLhcgBGC9zl6ZOscVb0",
-  authDomain: "react-cursos-b245f.firebaseapp.com",
+  authDomain: "life-journal.netlify.app",
   projectId: "react-cursos-b245f",
   storageBucket: "react-cursos-b245f.appspot.com",
   messagingSenderId: "1061214523475",
